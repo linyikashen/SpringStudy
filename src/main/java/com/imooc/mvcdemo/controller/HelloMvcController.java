@@ -2,23 +2,16 @@ package com.imooc.mvcdemo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/hello")
 public class HelloMvcController {
 
-    @RequestMapping("/mvc")
+    @RequestMapping(value = "/mvc")
     public String helloMvc() {
-        System.out.println("来了");
-
         return "home";
-    }
 
-    @RequestMapping("/mv")
-    @ResponseBody
-    public String helloStr() {
-        return "home";
     }
 
 }

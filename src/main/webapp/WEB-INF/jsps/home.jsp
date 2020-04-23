@@ -1,9 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>显示</title>
+    <title>首页</title>
 </head>
 <body>
-Hello Spring MVC!Here is iMook!
+首页
 </body>
 </html>
